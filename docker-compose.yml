@@ -1,0 +1,26 @@
+services:
+  dogs.api:
+    image: ${DOCKER_REGISTRY-}dogsapi
+    build:
+      context: .
+      dockerfile: DogsAPI/Dockerfile
+    depends_on:
+      - database
+    environment:
+      - ConnectionStrings__Database=Host=database;Port=5432;Database=DogsDb;Username=postgres;Password=123
+    ports:
+      - "8080:80"
+
+  database:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=DogsDb
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

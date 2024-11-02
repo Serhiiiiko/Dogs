@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogs.API", "DogsAPI\Dogs.API.csproj", "{0E99538C-68CC-4B3F-9A75-17C93382CE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogs.Core", "Dogs.Core\Dogs.Core.csproj", "{BB5BA6B2-C5C1-4934-8499-3DDFD93DE404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogs.DataAccess", "Dogs.DataAccess\Dogs.DataAccess.csproj", "{E08818B8-3C79-492D-91F6-FB84184F0650}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2160C823-026B-4279-AF9A-92347C148982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogs.Application", "Dogs.Application\Dogs.Application.csproj", "{9DBE2AE9-612E-431E-8D68-44AFF484B24F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E99538C-68CC-4B3F-9A75-17C93382CE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E99538C-68CC-4B3F-9A75-17C93382CE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E99538C-68CC-4B3F-9A75-17C93382CE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E99538C-68CC-4B3F-9A75-17C93382CE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5BA6B2-C5C1-4934-8499-3DDFD93DE404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5BA6B2-C5C1-4934-8499-3DDFD93DE404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5BA6B2-C5C1-4934-8499-3DDFD93DE404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5BA6B2-C5C1-4934-8499-3DDFD93DE404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08818B8-3C79-492D-91F6-FB84184F0650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08818B8-3C79-492D-91F6-FB84184F0650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08818B8-3C79-492D-91F6-FB84184F0650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08818B8-3C79-492D-91F6-FB84184F0650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2160C823-026B-4279-AF9A-92347C148982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2160C823-026B-4279-AF9A-92347C148982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2160C823-026B-4279-AF9A-92347C148982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2160C823-026B-4279-AF9A-92347C148982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBE2AE9-612E-431E-8D68-44AFF484B24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBE2AE9-612E-431E-8D68-44AFF484B24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBE2AE9-612E-431E-8D68-44AFF484B24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBE2AE9-612E-431E-8D68-44AFF484B24F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5D48CDE-77EE-4F68-B6E5-A4E91747A487}
+	EndGlobalSection
+EndGlobal
