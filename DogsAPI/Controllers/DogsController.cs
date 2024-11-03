@@ -28,6 +28,12 @@ public class DogsController : ControllerBase
         return Ok(response);
     }
 
+
+    /// <summary>
+    /// Needs to be fixed. Wrong routing on create method, gives 500 exception, but still creates dogs.
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns>Routes unhandled exception, creates dog</returns>
     [HttpPost]
     public async Task<ActionResult<DogResponse>> CreateDogAsync([FromBody] DogRequest request)
     {

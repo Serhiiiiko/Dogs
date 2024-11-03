@@ -1,6 +1,12 @@
 ﻿using Dogs.API.Controllers;
 
 namespace Dogs.Test.Controllers;
+
+/// <summary>
+/// 3/6 test are passing , need to fix routing in api.controller 
+/// </summary>
+/// <returns></returns>
+
 public class DogsControllerTests
 {
     private readonly Mock<IDogService> _mockDogService;
@@ -11,7 +17,6 @@ public class DogsControllerTests
         _mockDogService = new Mock<IDogService>();
         _controller = new DogsController(_mockDogService.Object);
     }
-
     [Fact]
     public async Task GetDogsAsync_ReturnsOkResult_WithListOfDogs()
     {

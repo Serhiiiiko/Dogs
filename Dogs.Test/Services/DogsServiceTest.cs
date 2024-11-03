@@ -1,6 +1,11 @@
 ﻿using Dogs.Application.Services;
 
 namespace Dogs.Test.Services;
+
+/// <summary>
+/// Passes all tests for the DogService class.
+/// </summary>
+
 public class DogServiceTest
 {
     private readonly Mock<IDogRepository> _mockDogRepository;

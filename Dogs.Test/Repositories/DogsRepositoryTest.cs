@@ -4,6 +4,11 @@ using Dogs.DataAccess;
 using Microsoft.EntityFrameworkCore;
 
 namespace Dogs.Test.Repositories;
+
+/// <summary>
+/// Passes all the tests for the DogRepository class.
+/// </summary>
+
 public class DogRepositoryTests
 {
     private DbContextOptions<DogsDbContext> _dbContextOptions;
