@@ -1,4 +1,4 @@
 # Dogs
 
-Test Task for Codebridge
-Requires Docker desktop
+Test Task for Codebridge, 
+requires Docker desktop
